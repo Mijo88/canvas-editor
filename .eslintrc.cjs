@@ -27,5 +27,6 @@ module.exports = {
     'import/extensions': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-namespace': 'off',
   },
 };
