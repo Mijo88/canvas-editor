@@ -1,6 +1,7 @@
-import {
+import type {
+  Shape,
   Circle,
-} from '@/core/shapes';
+} from '@/core';
 
 type Size = {
   width: number;
@@ -8,6 +9,7 @@ type Size = {
 };
 
 type CanvasElement = (
+  Shape |
   Circle
 );
 
