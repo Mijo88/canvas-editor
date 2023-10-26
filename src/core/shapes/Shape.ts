@@ -23,4 +23,8 @@ export class Shape implements _.ShapeOptions {
 
     this.hidden = true;
   }
+
+  public draw = (_: CanvasRenderingContext2D): void => {
+    throw new Error('Not implemented.');
+  };
 }

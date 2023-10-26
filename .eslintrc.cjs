@@ -23,7 +23,10 @@ module.exports = {
     'lines-between-class-members': 'off',
     'no-unused-vars': 'off',
     'no-underscore-dangle': 'off',
-    '@typescript-eslint/no-unused-vars': ['warn'],
+    '@typescript-eslint/no-unused-vars': ['warn', {
+      argsIgnorePattern: '^_$',
+      varsIgnorePattern: '^_$',
+    }],
     'import/extensions': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
